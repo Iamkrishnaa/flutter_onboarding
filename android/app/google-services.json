@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "386806829489",
+    "firebase_url": "https://tests-72318.firebaseio.com",
+    "project_id": "tests-72318",
+    "storage_bucket": "tests-72318.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386806829489:android:0f04d33b65e918a418ed90",
+        "android_client_info": {
+          "package_name": "com.forkhakitech.on_boarrding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386806829489-8ggigr64hj3toq7cnfkhcfljjo4nnnpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUwVQ1liBkL0A9L2RskEUbs6C-V9-VAzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386806829489-8ggigr64hj3toq7cnfkhcfljjo4nnnpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,13 +1,17 @@
+
 import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:on_boarrding/screens/home_page.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import "package:shared_preferences/shared_preferences.dart";
 import 'package:flutter/material.dart';
 import 'package:on_boarrding/utilities/intro_model.dart';
 import 'package:on_boarrding/screens/on_boarding.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    statusBarColor: Colors.transparent,
+  ));
   runApp(MaterialApp(
     home: GuideToTermuxTools(),
     debugShowCheckedModeBanner: false,
@@ -36,9 +40,6 @@ class _GuideToTermuxToolsState extends State<GuideToTermuxTools> {
 
   @override
   void initState() {
-    setState(() {
-      SystemChrome.setEnabledSystemUIOverlays([SystemUiOverlay.bottom]);
-    });
     super.initState();
     checkFirstSeen();
   }
@@ -92,3 +93,5 @@ class OnBoardingWidget extends StatelessWidget {
         imagePath: 'assets/images/onboarding0.png'),
   ];
 }
+
+
